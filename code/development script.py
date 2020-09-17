@@ -21,7 +21,7 @@ print(df.dtypes)
 #   serum_sodium has a impossible high value 
 
 df["age"] = df["age"].apply(np.int64)
-df = df.drop([149], axis=0)
+# df = df.drop([149], axis=0)
 
 
 # boxplot of each column in the data frame
