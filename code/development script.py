@@ -48,7 +48,8 @@ df = df.replace(3.5e+06,np.nan)
 
 #   serum_sodium has a impossible high value (2e+09), this is replaced with nan
 df = df.replace(2e+09,np.nan)
-df = df.drop([149], axis=0) # need to be removed if the issue of the 1 concentration of sodium is resolved
+df = df["serum_sodium"].replace(1,np.nan)
+ # need to be removed if the issue of the 1 concentration of sodium is resolved
 
 
 ## pre-preprocess data exploration
