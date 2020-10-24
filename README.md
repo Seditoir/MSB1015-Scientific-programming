@@ -7,12 +7,12 @@ There are three files in the code map. The first is Tom.xlsx which contains the 
 
 ###Packages nessecary 
 The following packages are nessesary to run the Juypter notebook.
-*Pandas
-*Numpy
-*Matplotlib.pyplot
-*Seaborn
-*Sklearn
-*Plotly
-*Mpl.toolkit.mplot3d
-*Scipy
-*Imblearn
+- Pandas
+- Numpy
+- Matplotlib.pyplot
+- Seaborn
+- Sklearn
+- Plotly
+- Mpl.toolkit.mplot3d
+- Scipy
+- Imblearn
